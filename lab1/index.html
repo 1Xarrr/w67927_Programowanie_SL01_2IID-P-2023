@@ -1,67 +1,81 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Myroslav Ferendovych</h1>
-
-    <p>My name is <b>Myroslav Ferendovych</b>. I'm studyind in <i>WSIZ</i></p>
-    <h3>Favourite serials(unnumbered)</h3>
-    <ul>
-        <li><a href = "https://en.wikipedia.org/wiki/Game_of_Thrones" > Game of Thrones </a></li>
-        <li><a href = "https://pl.wikipedia.org/wiki/Cobra_Kai" > Cobra Kai </a></li>
-        <li><a href = "https://pl.wikipedia.org/wiki/Breaking_Bad" > Breaking Bad </a></li>
-    </ul>
-    <h3>Favourite Anime list(numbered):</h3>
-    <ol>
-        <li><a href = "https://jut.su/shingekii-no-kyojin/" > Attack on Titan </a></li>
-        <li><a href = "https://jut.su/oneepiece/" > OnePiece </a></li>
-        <li><a href = "https://jut.su/mushoku-tensei/" > Reincarnation of the Unemployed </a></li>
-    </ol>
-
-    <h3>Table 1</h3>
-
-    <table border="1">
-        <tr>
-            <td>2022 – obecnie</td>
-            <td>WSIZ</td>
-        </tr>
-        <tr>
-            <td>2014 – 2022</td>
-            <td>Lviv Ukrainian Liceum n.a. Ivan Puluj</td>
-        </tr>
-        <tr>
-            <td>2010 - 2014</td>
-            <td>School N83</td>
-        </tr>
-    </table>
-
-    <h3>Table 2</h3>
-
-    <table border="1" width="100" height="100">
-        <tr>
-          <td></td>
-          <td rowspan="2"></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td rowspan="2" colspan="2"></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2"></td>
-          <td></td>
-        </tr>
-      </table>
-</body>
+    <body class="body-all">
+        <header>
+            <h1>Myroslav Ferendovych</h1>
+        </header>
+            <p>My name is <b>Myroslav</b>. I am studing in <i>WSIZ</i></p>
+        <section>
+                <h2>My favorite films:</h2>
+                    <ul>
+                        <li><a href="https://www.justwatch.com/uk/movie/fast-five"><h3>Fast & Furious</h3></a></li>
+                        <li><a href="https://kinoferma.pro/233-pirates-of-the-caribbean-the-curse-of-the-black-pearl-watch-movie.html"><h3>Pirates of the Caribbean</h3></a></li>
+                        <li><a href="https://www.filmweb.pl/film/John+Wick-2014-698144"><h3>John Wick</h3></a></li>
+                    </ul>
+                <h2>My favorite serials:</h2>
+                    <ol>
+                        <li><a href="https://www.filmweb.pl/serial/Flash-2014-694518"><h3>Flash</h3></a></li>
+                        <li><a href="https://www.filmweb.pl/serial/Arrow-2012-644652"><h3>Arrow</h3></a></li>
+                        <li><a href="https://www.filmweb.pl/serial/Gotham-2014-706905"><h3>Gotham</h3></a></li>
+                        <li><a href="https://www.filmweb.pl/serial/Peaky+Blinders-2013-680981"><h3>Peaky Blinders</h3></a></li>
+                    </ol>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th>text</th>
+                            <th rowspan="2">text</th>
+                            <th>text</th>
+                        </tr>
+                        <tr>
+                            <th>text</th>
+                            <th>text</th>
+                        </tr>
+                        <tr>
+                            <th>text</th>
+                            <th rowspan="2", colspan="2">text</th>
+                        </tr>
+                        <tr>
+                            <th>text</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">text</th>
+                            <th>text</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <style>
+                    .table, th, td{
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                    justify-self: center;
+                    position: static;
+                    width: 40%;
+                    margin: auto;
+                    }
+                </style>
+        </section>
+        <div class="photo">
+            <img src="https://i.pinimg.com/originals/86/51/7c/86517c4479246add9def0c9a0aa9f413.jpg" 
+            width="200" 
+            height="200"/>
+        </div>
+        <div class="container">
+            <div class="center">
+                <!-- <a href="/login.html">
+                    <button class="button-12" role="button">Login</button>
+                </a> -->
+                <a href="/sub.html">
+                    <button class="button-12" role="button">Subscribe</button>
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
+
