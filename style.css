@@ -1,0 +1,61 @@
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 20px;
+  }
+ 
+  #name {
+    font-weight: bold;
+  }
+ 
+  #links {
+    display: flex;
+    font: 
+  }
+ 
+  #links a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  #links a:hover {
+    text-decoration: underline;
+  }
+
+  #zdjecia {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  #tablica {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+  }
+
+  #tablica2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  #text-oceny1 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  #text-oceny2 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
